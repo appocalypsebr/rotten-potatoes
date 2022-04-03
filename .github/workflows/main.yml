@@ -30,7 +30,7 @@ jobs:
           file: /src/Dockerfile
           push: true
           tags: |
-             appocalypsebr/rotten-potatoes:latest
-             appocalypsebr/rotten-potatoes:${{github.run_number}}
+             diegocubells/conversao-temperatura:latest
+             diegocubells/conversao-temperatura:${{github.run_number}}
              
             
